@@ -1,0 +1,23 @@
+We use molecular dynamics simulations to study crystal nucleation in supercooled Lennard-Jones liquids, 
+comparing two order parameters: the global potential energy and the local slope of the radial distribution function (RDF). 
+
+A threshold-based analysis shows that the RDF slope detects nucleation earlier, 
+reflecting local structural reorganization before a significant drop in potential energy. 
+When computing free energy barriers, the slope parameter also exhibits smaller standard deviations, indicating more robust sampling of metastable states. 
+
+Overall, these results suggest that the slope of the RDF provides a more reliable and sensitive measure of the nucleation process than global potential energy, 
+offering clearer insights into the early stages of crystallization in simple fluids.
+
+Our findings reveal that, although both parameters successfully detect the transition caused by the nucleation event, 
+the slope parameter offers several clear advantages:
+
+Higher Sensitivity to Early Structural Changes. 
+The slope of the RDF captures local rearrangements more directly than the global potential energy.
+
+As a result, it often signals the onset of nucleation earlier in the simulation. More Consistent Free Profiles. 
+When computing free energy, we observed that the slope parameter yields smaller standard deviations across different replicas. 
+This implies more reliable sampling and suggests that the slope is less susceptible to statistical noise than the potential energy.
+
+Overall, the slope parameter serves as a more robust and precise indicator of the nucleation process in supercooled Lennard-Jones liquids. 
+Future work could explore a combination of structural and thermodynamic indicators, possibly integrating advanced sampling techniques, 
+to gain deeper insights into the complex dynamics of nucleation in supercooled fluids.
